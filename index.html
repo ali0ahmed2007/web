@@ -31,6 +31,32 @@ header {
   width: 120px;
   border-radius: 10px;
 }
+
+  
+.formateurs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.formateur {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.formateur img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
 </style>
 
 </head>
@@ -62,10 +88,9 @@ header {
   <div>
     <h2>2. Nos services</h2>
     <ul>
-      <li>Développement de sites web</li>
-      <li>Applications mobiles</li>
-      <li>Solutions de cybersécurité</li>
-      <li>Consultation en transformation digitale</li>
+      <li>Création de site web</li>
+      <li>Protection des données</li>
+      <li>instalation de résaux informatique </li>
     </ul>
   </div>
 </div>
@@ -78,7 +103,23 @@ header {
     <p>Chez Cyber Technologies, nous aidons tout le monde à utiliser la technologie pour réussir.</p>
   </div>
 </div>
+     <section id="formateurs">
+        <h2>Nos Formateurs</h2>
 
+        <div class="formateurs-container">
+
+            <div class="formateur">
+                <img src="https://static.nationalgeographic.fr/files/styles/image_3200/public/comedy-wildlife-awards-squirel-stop.adapt_.1190.1.jpg?w=1900&h=1417" alt="Formateur 1">
+                <h3>Ali Almasalmeh</h3>
+                <p>Spécialiste en cybersécurité.</p>
+            </div>
+
+            <div class="formateur">
+                <img src="https://parcsaintecroix.com/wp-content/uploads/2024/06/cp-e-wittwer-6-2-500x500-ad0950baee13.png" alt="Formateur 2">
+                <h3>Timeo Aeck</h3>
+                <p>Spécialiste en cybersécurité.</p>
+            </div>
+        </section>   
 </main>
 
 </body>
